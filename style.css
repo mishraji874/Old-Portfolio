@@ -211,10 +211,28 @@ header {
     width: 50%;
 }
 .progress-line .figma {
-    width: 70%;
+    width: 80%;
 }
 .progress-line .gg {
-    width: 70%;
+    width: 80%;
+}
+.progress-line .python {
+  width: 60%;
+}
+.progress-line .java {
+  width: 70%;
+}
+.progress-line .mongodb {
+  width: 50%;
+}
+.progress-line .expressjs {
+  width: 50%;
+}
+.progress-line .nodejs {
+  width: 70%;
+}
+.progress-line .sql {
+  width: 70%;
 }
 
 .bar .progress-line span::before {
@@ -262,10 +280,28 @@ header {
     content: "50%";
 }
 .progress-line .figma::after {
-    content: "70%";
+    content: "80%";
 }
-.progress-line .gg:after {
-    content: "70%";
+.progress-line .gg::after {
+    content: "80%";
+}
+.progress-line .python::after {
+  content: "60%";
+}
+.progress-line .java::after {
+  content: "70%";
+}
+.progress-line .mongodb::after {
+  content: "50%";
+}
+.progress-line .expressjs::after {
+  content: "50%";
+}
+.progress-line .nodejs::after {
+  content: "70%";
+}
+.progress-line .sql::after {
+  content: "70%";
 }
 
 .navbar.solid {
